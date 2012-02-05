@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806D88E914DDA34200C253F2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E214DDA34200C253F2 /* Icon-72.png */; };
+		806D88EA14DDA34200C253F2 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E314DDA34200C253F2 /* Icon-Small-50.png */; };
+		806D88EB14DDA34200C253F2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E414DDA34200C253F2 /* Icon-Small.png */; };
+		806D88EC14DDA34200C253F2 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E514DDA34200C253F2 /* Icon-Small@2x.png */; };
+		806D88ED14DDA34200C253F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E614DDA34200C253F2 /* Icon.png */; };
+		806D88EE14DDA34200C253F2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E714DDA34200C253F2 /* Icon@2x.png */; };
+		806D88EF14DDA34200C253F2 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 806D88E814DDA34200C253F2 /* iTunesArtwork */; };
+		80B5147B14DD6D62004DA522 /* Squeak.fev in Resources */ = {isa = PBXBuildFile; fileRef = 80B513F914DD6D62004DA522 /* Squeak.fev */; };
+		80B5147C14DD6D62004DA522 /* SqueakWaveBank.fsb in Resources */ = {isa = PBXBuildFile; fileRef = 80B513FB14DD6D62004DA522 /* SqueakWaveBank.fsb */; };
+		80B5148714DD78E0004DA522 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B5148614DD78E0004DA522 /* CoreAudio.framework */; };
+		80B5148914DD78E5004DA522 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B5148814DD78E5004DA522 /* AudioToolbox.framework */; };
+		80D2657D14DE8EE100A3CE09 /* MWVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2657C14DE8EE100A3CE09 /* MWVector.m */; };
+		80D2D20614DA858100F7CAB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D2D20514DA858100F7CAB6 /* UIKit.framework */; };
+		80D2D20814DA858100F7CAB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D2D20714DA858100F7CAB6 /* Foundation.framework */; };
+		80D2D20A14DA858100F7CAB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D2D20914DA858100F7CAB6 /* CoreGraphics.framework */; };
+		80D2D21014DA858100F7CAB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D2D20E14DA858100F7CAB6 /* InfoPlist.strings */; };
+		80D2D21214DA858100F7CAB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2D21114DA858100F7CAB6 /* main.m */; };
+		80D2D21614DA858100F7CAB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2D21514DA858100F7CAB6 /* AppDelegate.m */; };
+		80D2D21914DA858100F7CAB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2D21814DA858100F7CAB6 /* ViewController.m */; };
+		80D2D21C14DA858100F7CAB6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D2D21A14DA858100F7CAB6 /* ViewController_iPhone.xib */; };
+		80D2D21F14DA858100F7CAB6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D2D21D14DA858100F7CAB6 /* ViewController_iPad.xib */; };
+		80D2D22714DA8C3000F7CAB6 /* BGTexture_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D2D22514DA8C3000F7CAB6 /* BGTexture_iPad.png */; };
+		80D2D22814DA8C3000F7CAB6 /* BGTexture_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D2D22614DA8C3000F7CAB6 /* BGTexture_iPhone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		806D88E214DDA34200C253F2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		806D88E314DDA34200C253F2 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		806D88E414DDA34200C253F2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		806D88E514DDA34200C253F2 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		806D88E614DDA34200C253F2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		806D88E714DDA34200C253F2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		806D88E814DDA34200C253F2 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		80B5136814DD6D2E004DA522 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		80B5136914DD6D2E004DA522 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		80B5136A14DD6D2E004DA522 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		80B5136B14DD6D2E004DA522 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		80B5136C14DD6D2E004DA522 /* fmod_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_event.h; sourceTree = "<group>"; };
+		80B5136D14DD6D2E004DA522 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		80B5136E14DD6D2E004DA522 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		80B5136F14DD6D2E004DA522 /* fmodiphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodiphone.h; sourceTree = "<group>"; };
+		80B5137014DD6D2E004DA522 /* libfmodevent_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodevent_iphoneos.a; sourceTree = "<group>"; };
+		80B5137114DD6D2E004DA522 /* libfmodevent_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodevent_iphonesimulator.a; sourceTree = "<group>"; };
+		80B5137214DD6D2E004DA522 /* libfmodex_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphoneos.a; sourceTree = "<group>"; };
+		80B5137314DD6D2E004DA522 /* libfmodex_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphonesimulator.a; sourceTree = "<group>"; };
+		80B513F914DD6D62004DA522 /* Squeak.fev */ = {isa = PBXFileReference; lastKnownFileType = file; path = Squeak.fev; sourceTree = "<group>"; };
+		80B513FA14DD6D62004DA522 /* Squeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		80B513FB14DD6D62004DA522 /* SqueakWaveBank.fsb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SqueakWaveBank.fsb; sourceTree = "<group>"; };
+		80B5148614DD78E0004DA522 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		80B5148814DD78E5004DA522 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		80D2657B14DE8EE100A3CE09 /* MWVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWVector.h; sourceTree = "<group>"; };
+		80D2657C14DE8EE100A3CE09 /* MWVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWVector.m; sourceTree = "<group>"; };
+		80D2D20114DA858100F7CAB6 /* Squeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D2D20514DA858100F7CAB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80D2D20714DA858100F7CAB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80D2D20914DA858100F7CAB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80D2D20D14DA858100F7CAB6 /* Squeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Squeak-Info.plist"; path = "Source Code/Squeak-Info.plist"; sourceTree = SOURCE_ROOT; };
+		80D2D20F14DA858100F7CAB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80D2D21114DA858100F7CAB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80D2D21314DA858100F7CAB6 /* Squeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Squeak-Prefix.pch"; sourceTree = "<group>"; };
+		80D2D21414DA858100F7CAB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80D2D21514DA858100F7CAB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80D2D21714DA858100F7CAB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80D2D21814DA858100F7CAB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80D2D21B14DA858100F7CAB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		80D2D21E14DA858100F7CAB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		80D2D22514DA8C3000F7CAB6 /* BGTexture_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGTexture_iPad.png; sourceTree = "<group>"; };
+		80D2D22614DA8C3000F7CAB6 /* BGTexture_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGTexture_iPhone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D2D1FE14DA858100F7CAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B5148914DD78E5004DA522 /* AudioToolbox.framework in Frameworks */,
+				80B5148714DD78E0004DA522 /* CoreAudio.framework in Frameworks */,
+				80D2D20614DA858100F7CAB6 /* UIKit.framework in Frameworks */,
+				80D2D20814DA858100F7CAB6 /* Foundation.framework in Frameworks */,
+				80D2D20A14DA858100F7CAB6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806A871314DC15900039844A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				80D2D21A14DA858100F7CAB6 /* ViewController_iPhone.xib */,
+				80D2D21D14DA858100F7CAB6 /* ViewController_iPad.xib */,
+				80D2D22514DA8C3000F7CAB6 /* BGTexture_iPad.png */,
+				80D2D22614DA8C3000F7CAB6 /* BGTexture_iPhone.png */,
+				806D88E114DDA34200C253F2 /* Icons */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		806D88E114DDA34200C253F2 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				806D88E214DDA34200C253F2 /* Icon-72.png */,
+				806D88E314DDA34200C253F2 /* Icon-Small-50.png */,
+				806D88E414DDA34200C253F2 /* Icon-Small.png */,
+				806D88E514DDA34200C253F2 /* Icon-Small@2x.png */,
+				806D88E614DDA34200C253F2 /* Icon.png */,
+				806D88E714DDA34200C253F2 /* Icon@2x.png */,
+				806D88E814DDA34200C253F2 /* iTunesArtwork */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		80B5136614DD6D2E004DA522 /* FMOD Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				80B5136714DD6D2E004DA522 /* Headers */,
+				80B5137014DD6D2E004DA522 /* libfmodevent_iphoneos.a */,
+				80B5137114DD6D2E004DA522 /* libfmodevent_iphonesimulator.a */,
+				80B5137214DD6D2E004DA522 /* libfmodex_iphoneos.a */,
+				80B5137314DD6D2E004DA522 /* libfmodex_iphonesimulator.a */,
+			);
+			path = "FMOD Libraries";
+			sourceTree = "<group>";
+		};
+		80B5136714DD6D2E004DA522 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				80B5136814DD6D2E004DA522 /* fmod.h */,
+				80B5136914DD6D2E004DA522 /* fmod_codec.h */,
+				80B5136A14DD6D2E004DA522 /* fmod_dsp.h */,
+				80B5136B14DD6D2E004DA522 /* fmod_errors.h */,
+				80B5136C14DD6D2E004DA522 /* fmod_event.h */,
+				80B5136D14DD6D2E004DA522 /* fmod_memoryinfo.h */,
+				80B5136E14DD6D2E004DA522 /* fmod_output.h */,
+				80B5136F14DD6D2E004DA522 /* fmodiphone.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		80B5137814DD6D61004DA522 /* FMOD Project Build */ = {
+			isa = PBXGroup;
+			children = (
+				80B513F914DD6D62004DA522 /* Squeak.fev */,
+				80B513FA14DD6D62004DA522 /* Squeak.h */,
+				80B513FB14DD6D62004DA522 /* SqueakWaveBank.fsb */,
+			);
+			path = "FMOD Project Build";
+			sourceTree = "<group>";
+		};
+		80D2D1F614DA858100F7CAB6 = {
+			isa = PBXGroup;
+			children = (
+				80D2D20B14DA858100F7CAB6 /* Source Code */,
+				80B5137814DD6D61004DA522 /* FMOD Project Build */,
+				80D2D20414DA858100F7CAB6 /* Frameworks */,
+				80D2D20214DA858100F7CAB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D2D20214DA858100F7CAB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D2D20114DA858100F7CAB6 /* Squeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D2D20414DA858100F7CAB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B5136614DD6D2E004DA522 /* FMOD Libraries */,
+				80B5148814DD78E5004DA522 /* AudioToolbox.framework */,
+				80B5148614DD78E0004DA522 /* CoreAudio.framework */,
+				80D2D20514DA858100F7CAB6 /* UIKit.framework */,
+				80D2D20714DA858100F7CAB6 /* Foundation.framework */,
+				80D2D20914DA858100F7CAB6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80D2D20B14DA858100F7CAB6 /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				80D2D21414DA858100F7CAB6 /* AppDelegate.h */,
+				80D2D21514DA858100F7CAB6 /* AppDelegate.m */,
+				80D2D21714DA858100F7CAB6 /* ViewController.h */,
+				80D2D21814DA858100F7CAB6 /* ViewController.m */,
+				80D2657B14DE8EE100A3CE09 /* MWVector.h */,
+				80D2657C14DE8EE100A3CE09 /* MWVector.m */,
+				806A871314DC15900039844A /* UI */,
+				80D2D20C14DA858100F7CAB6 /* Supporting Files */,
+			);
+			path = "Source Code";
+			sourceTree = "<group>";
+		};
+		80D2D20C14DA858100F7CAB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D2D20D14DA858100F7CAB6 /* Squeak-Info.plist */,
+				80D2D20E14DA858100F7CAB6 /* InfoPlist.strings */,
+				80D2D21114DA858100F7CAB6 /* main.m */,
+				80D2D21314DA858100F7CAB6 /* Squeak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D2D20014DA858100F7CAB6 /* Squeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D2D22214DA858100F7CAB6 /* Build configuration list for PBXNativeTarget "Squeak" */;
+			buildPhases = (
+				80D2D1FD14DA858100F7CAB6 /* Sources */,
+				80D2D1FE14DA858100F7CAB6 /* Frameworks */,
+				80D2D1FF14DA858100F7CAB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squeak;
+			productName = Squeak;
+			productReference = 80D2D20114DA858100F7CAB6 /* Squeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D2D1F814DA858100F7CAB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Jim McGowan";
+			};
+			buildConfigurationList = 80D2D1FB14DA858100F7CAB6 /* Build configuration list for PBXProject "Squeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80D2D1F614DA858100F7CAB6;
+			productRefGroup = 80D2D20214DA858100F7CAB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D2D20014DA858100F7CAB6 /* Squeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D2D1FF14DA858100F7CAB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D2D21014DA858100F7CAB6 /* InfoPlist.strings in Resources */,
+				80D2D21C14DA858100F7CAB6 /* ViewController_iPhone.xib in Resources */,
+				80D2D21F14DA858100F7CAB6 /* ViewController_iPad.xib in Resources */,
+				80D2D22714DA8C3000F7CAB6 /* BGTexture_iPad.png in Resources */,
+				80D2D22814DA8C3000F7CAB6 /* BGTexture_iPhone.png in Resources */,
+				80B5147B14DD6D62004DA522 /* Squeak.fev in Resources */,
+				80B5147C14DD6D62004DA522 /* SqueakWaveBank.fsb in Resources */,
+				806D88E914DDA34200C253F2 /* Icon-72.png in Resources */,
+				806D88EA14DDA34200C253F2 /* Icon-Small-50.png in Resources */,
+				806D88EB14DDA34200C253F2 /* Icon-Small.png in Resources */,
+				806D88EC14DDA34200C253F2 /* Icon-Small@2x.png in Resources */,
+				806D88ED14DDA34200C253F2 /* Icon.png in Resources */,
+				806D88EE14DDA34200C253F2 /* Icon@2x.png in Resources */,
+				806D88EF14DDA34200C253F2 /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D2D1FD14DA858100F7CAB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D2D21214DA858100F7CAB6 /* main.m in Sources */,
+				80D2D21614DA858100F7CAB6 /* AppDelegate.m in Sources */,
+				80D2D21914DA858100F7CAB6 /* ViewController.m in Sources */,
+				80D2657D14DE8EE100A3CE09 /* MWVector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80D2D20E14DA858100F7CAB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D2D20F14DA858100F7CAB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = "Source Code/UI";
+			sourceTree = SOURCE_ROOT;
+		};
+		80D2D21A14DA858100F7CAB6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D2D21B14DA858100F7CAB6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		80D2D21D14DA858100F7CAB6 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D2D21E14DA858100F7CAB6 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D2D22014DA858100F7CAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D2D22114DA858100F7CAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D2D22314DA858100F7CAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source Code/Squeak-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Source Code/Squeak-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/FMOD Libraries\"",
+					"\"$(SRCROOT)/MWVector\"",
+				);
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=armv7]" = (
+					"\"$(SRCROOT)/FMOD Libraries/libfmodevent_iphoneos.a\"",
+					"\"$(SRCROOT)/FMOD Libraries/libfmodex_iphoneos.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"\"$(SRCROOT)/FMOD Libraries/libfmodex_iphonesimulator.a\"",
+					"\"$(SRCROOT)/FMOD Libraries/libfmodevent_iphonesimulator.a\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_LDFLAGS = (
+					"\"$(SRCROOT)/FMOD Libraries/libfmodevent_iphoneos.a\"",
+					"\"$(SRCROOT)/FMOD Libraries/libfmodex_iphoneos.a\"",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80D2D22414DA858100F7CAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source Code/Squeak-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Source Code/Squeak-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/FMOD Libraries\"",
+					"\"$(SRCROOT)/MWVector\"",
+				);
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=armv7]" = (
+					"\"$(SRCROOT)/FMOD Libraries/libfmodex_iphoneos.a\"",
+					"\"$(SRCROOT)/FMOD Libraries/libfmodevent_iphoneos.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"\"$(SRCROOT)/FMOD Libraries/libfmodevent_iphonesimulator.a\"",
+					"\"$(SRCROOT)/FMOD Libraries/libfmodex_iphonesimulator.a\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_LDFLAGS = (
+					"\"$(SRCROOT)/FMOD Libraries/libfmodevent_iphoneos.a\"",
+					"\"$(SRCROOT)/FMOD Libraries/libfmodex_iphoneos.a\"",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D2D1FB14DA858100F7CAB6 /* Build configuration list for PBXProject "Squeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D2D22014DA858100F7CAB6 /* Debug */,
+				80D2D22114DA858100F7CAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D2D22214DA858100F7CAB6 /* Build configuration list for PBXNativeTarget "Squeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D2D22314DA858100F7CAB6 /* Debug */,
+				80D2D22414DA858100F7CAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D2D1F814DA858100F7CAB6 /* Project object */;
+}
